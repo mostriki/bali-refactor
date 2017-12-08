@@ -22,35 +22,35 @@ _..._
 
 :heavy_check_mark: _Ensure that users can't order a negative number of items._
 
-:radio_button: _Add flash messages for signing up, signing in and signing out._
+* _Add flash messages for signing up, signing in and signing out._
 
-:radio_button: _Add product update and delete functionality for admins._
+* _Add product update and delete functionality for admins._
 
-:radio_button: _Add admin flash messages for adding, updating and deleting products._
+* _Add admin flash messages for adding, updating and deleting products._
 
-:radio_button: _Add Paperclip for product image upload._
+* _Add Paperclip for product image upload._
 
-:radio_button: _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
+* _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
 
-:radio_button: _Add product validations._
+* _Add product validations._
 
-:radio_button: _Add Stripe so users can pay when finalizing orders._
+* _Add Stripe so users can pay when finalizing orders._
 
-:radio_button: _Add password validations to ensure a user's password is sufficiently complex._
+* _Add password validations to ensure a user's password is sufficiently complex._
 
-:radio_button: _Add admin links to navbar so admins can easily add, update and delete products._
+* _Add admin links to navbar so admins can easily add, update and delete products._
 
-:radio_button: _Fix the row height for products, which can quickly become uneven._
+* _Fix the row height for products, which can quickly become uneven._
 
-:radio_button: _Add integration testing for AJAX functionality._
+* _Add integration testing for AJAX functionality._
 
-:radio_button: _Add further AJAX functionality where it might be useful._
+* _Add further AJAX functionality where it might be useful._
 
 ### New Issues
 
-:radio_button: _Fix cart so that the cart shows as empty when all of the products have been deleted._
+* _Fix cart so that the cart shows as empty when all of the products have been deleted._
 
-:radio_button: _Fix issue with product detail display taking 2 clicks to work the first time._
+* _Fix issue with product detail display taking 2 clicks to work the first time._
 
 ### Technologies Used
 
