@@ -7,11 +7,11 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.2'
+gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'materialize-sass'
+gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -39,8 +40,14 @@ gem 'materialize-sass'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rspec-rails'
+  gem 'launchy'
   gem 'pry'
   gem 'faker'
+  gem 'shoulda-matchers'
+  gem 'capybara'
+  gem "factory_bot_rails", "~> 4.0"
+  gem 'simplecov', require: false
 end
 
 group :development do
