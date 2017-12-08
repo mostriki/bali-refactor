@@ -46,6 +46,8 @@ _..._
 
 :radio_button: _Add further AJAX functionality where it might be useful._
 
+:radio_button: _Fix cart so that the cart shows as empty when all of the products have been deleted._
+
 ### Technologies Used
 
 * _HTML_
