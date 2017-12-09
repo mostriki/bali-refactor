@@ -20,7 +20,7 @@ _..._
 
 ### Further Exploration
 
-:heavy_check_mark: _Ensure that users can't order a negative number of items._
+* _Ensure that users can't order a negative number of items._
 
 * _Add flash messages for signing up, signing in and signing out._
 
@@ -32,7 +32,7 @@ _..._
 
 * _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
 
-* _Add product validations._
+:heavy_check_mark: _Add product validations._
 
 * _Add Stripe so users can pay when finalizing orders._
 
