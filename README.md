@@ -20,31 +20,31 @@ _..._
 
 ### Further Exploration
 
-* _Ensure that users can't order a negative number of items._
+:heavy_check_mark: _Ensure that users can't order a negative number of items._
 
 * _Add flash messages for signing up, signing in and signing out._
 
-* _Add product update and delete functionality for admins._
-
-* _Add admin flash messages for adding, updating and deleting products._
-
-* _Add Paperclip for product image upload._
-
-* _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
-
-:heavy_check_mark: _Add product validations._
-
 * _Add Stripe so users can pay when finalizing orders._
+
+* _Fix the row height for products, which can quickly become uneven._
 
 * _Add password validations to ensure a user's password is sufficiently complex._
 
-* _Add admin links to navbar so admins can easily add, update and delete products._
+:heavy_check_mark: _Add Paperclip for product image upload._
 
-* _Fix the row height for products, which can quickly become uneven._
+:heavy_check_mark: _Add product validations._
 
 * _Add integration testing for AJAX functionality._
 
 * _Add further AJAX functionality where it might be useful._
+
+* _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
+
+* _Add admin flash messages for adding, updating and deleting products._
+
+* _Add admin links to navbar so admins can easily add, update and delete products._
+
+* _Add product update and delete functionality for admins._
 
 ### New Issues
 
