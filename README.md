@@ -52,6 +52,8 @@ _..._
 
 * _Fix issue with product detail display taking 2 clicks to work the first time._
 
+* _Fix issue with cart link disappearing when quantity is updated._
+
 ### Technologies Used
 
 * _HTML_
