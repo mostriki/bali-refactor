@@ -22,7 +22,7 @@ _..._
 
 :heavy_check_mark: _Ensure that users can't order a negative number of items._
 
-* _Add flash messages for signing up, signing in and signing out._
+:heavy_check_mark: _Add flash messages for signing up, signing in and signing out._
 
 * _Add Stripe so users can pay when finalizing orders._
 
@@ -52,7 +52,7 @@ _..._
 
 * _Fix issue with product detail display taking 2 clicks to work the first time._
 
-* _Fix issue with cart link disappearing when quantity is updated._
+:heavy_check_mark: _Fix issue with cart link disappearing when quantity is updated._
 
 ### Technologies Used
 
