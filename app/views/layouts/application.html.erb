@@ -11,7 +11,7 @@
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><span class="navQuantity"><%= link_to "Cart | Total items: #{ cart_items }", cart_path %></span></li>
-        <li><%= link_to "See all products", products_path %></li>
+        <li><%= link_to "See all products", root_path %></li>
         <% if current_user %>
           <li><%= current_user.email %></li>
           <li><%= link_to "Sign out", '/sign_out' %></li>
