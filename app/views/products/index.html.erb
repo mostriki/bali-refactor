@@ -6,12 +6,15 @@
     <div class="col s4">
       <h4><%= link_to product.name, product_path(product), remote: true %></h4>
       <p><%= number_to_currency product.price %></p>
-      <div id="productDetail<%= product.id %>"></div>
+      <div id="productDetail<%= product.id %>" style="display: none;"></div>
       <%= form_for @order_item, remote: true do |f| %>
         <%= f.hidden_field :product_id, value: product.id %>
         <%= f.number_field :quantity, in: 1..20, placeholder: "Oops, breaks if you don't add input!" %>
         <span class="waves-effect waves-light btn"><%= f.submit "Add to cart"%></span>
       <% end %>
+      <% if current_user.admin %>
+        <p><%= link_to 'Edit', product_path(product) %></p>
+      <% end%>
     </div>
   <% end %>
 </div>
