@@ -17,9 +17,32 @@ class ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
     if @product.save
+      flash[:notice] = "You have successfully created the product #{@product.name}!"
       redirect_to '/'
     else
       render :new
+    end
+  end
+
+  def edit
+    @product = Product.find(params[:id])
+  end
+
+  def update
+    @product = Product.find(params[:id])
+    if @product.update(product_params)
+      flash[:notice] = "You have successfully updated #{@product.name}!"
+      redirect_to '/'
+    else
+      render :edit
+    end
+  end
+
+  def destroy
+    @product = Product.find(params[:id])
+    if @product.destroy
+      flash[:alert] = "You have successfully deleted #{@product.name}!"
+      redirect_to '/'
     end
   end
 
