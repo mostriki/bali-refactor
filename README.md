@@ -38,7 +38,7 @@ _..._
 
 - [ ] _Add further AJAX functionality where it might be useful._
 
-- [ ] _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
+- [x] _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
 
 - [x] _Add admin flash messages for adding, updating and deleting products._
 
