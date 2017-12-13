@@ -12,47 +12,49 @@ _..._
 
 ### AJAX
 
-:heavy_check_mark: _Users should be able to add products to their shopping cart from the index page with AJAX. The item should be added to the shopping cart and the number of items in the cart (shown in the navbar) should update._
+- [x] _Users should be able to add products to their shopping cart from the index page with AJAX. The item should be added to the shopping cart and the number of items in the cart (shown in the navbar) should update._
 
-:heavy_check_mark: _Users should be able to click on a product and show/hide the product detail using AJAX. The product detail should include an image (either Paperclip or an image link), the description, and any other fields you choose to add._
+- [x] _Users should be able to click on a product and show/hide the product detail using AJAX. The product detail should include an image (either Paperclip or an image link), the description, and any other fields you choose to add._
 
-:heavy_check_mark: _Users should be able to remove items from the shopping cart without a page reload. The "delete" link should result in the item being removed from the shopping cart and the total price being updated._
+- [x] _Users should be able to remove items from the shopping cart without a page reload. The "delete" link should result in the item being removed from the shopping cart and the total price being updated._
 
 ### Further Exploration
 
-:heavy_check_mark: _Ensure that users can't order a negative number of items._
+- [x] _Ensure that users can't order a negative number of items._
 
-:heavy_check_mark: _Add flash messages for signing up, signing in and signing out._
+- [x] _Add flash messages for signing up, signing in and signing out._
 
-* _Add Stripe so users can pay when finalizing orders._
+- [ ] _Add Stripe so users can pay when finalizing orders._
 
-* _Fix the row height for products, which can quickly become uneven._
+- [ ] _Fix the row height for products, which can quickly become uneven._
 
-* _Add password validations to ensure a user's password is sufficiently complex._
+- [ ] _Add password validations to ensure a user's password is sufficiently complex._
 
-:heavy_check_mark: _Add Paperclip for product image upload._
+- [x] _Add Paperclip for product image upload._
 
-:heavy_check_mark: _Add product validations._
+- [x] _Add product validations._
 
-* _Add integration testing for AJAX functionality._
+- [ ] _Add integration testing for AJAX functionality._
 
-* _Add further AJAX functionality where it might be useful._
+- [ ] _Add further AJAX functionality where it might be useful._
 
-* _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
+- [ ] _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
 
-* _Add admin flash messages for adding, updating and deleting products._
+- [x] _Add admin flash messages for adding, updating and deleting products._
 
-* _Add admin links to navbar so admins can easily add, update and delete products._
+- [x] _Add admin links to navbar so admins can easily add, update and delete products._
 
-* _Add product update and delete functionality for admins._
+- [x] _Add product update and delete functionality for admins._
 
 ### New Issues
 
-* _Fix cart so that the cart shows as empty when all of the products have been deleted._
+- [ ] _Fix cart so that the cart shows as empty when all of the products have been deleted._
 
-* _Fix issue with product detail display taking 2 clicks to work the first time._
+- [ ] _Fix issue with product detail display taking 2 clicks to work the first time._
 
-:heavy_check_mark: _Fix issue with cart link disappearing when quantity is updated._
+- [ ] _Fix image file upload button in product edit path. Not compatible with materialize._
+
+- [x] _Fix issue with cart link disappearing when quantity is updated._
 
 ### Technologies Used
 
