@@ -12,7 +12,7 @@
         <%= f.number_field :quantity, in: 1..20, placeholder: "Please enter an amount." %>
         <span class="waves-effect waves-light btn"><%= f.submit "Add to cart"%></span>
       <% end %>
-      <% if current_user.admin %>
+      <% if admin %>
         <p><%= link_to 'Edit', product_path(product) %></p>
       <% end%>
     </div>
